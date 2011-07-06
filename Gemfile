@@ -2,11 +2,12 @@ source 'http://rubygems.org'
 
 gem "rake", "0.8.7"
 gem "rails", "3.0.7"
-gem "mysql2"
+gem 'pg'
+gem 'unicorn'
 gem "redcarpet"
 gem "coderay"
 gem "acts_as_list"
-gem "thinking-sphinx", ">= 2.0.1", :require => "thinking_sphinx"
+gem "thinking-sphinx", ">= 2.0.3", :require => "thinking_sphinx"
 gem "whenever", :require => false
 gem "will_paginate", ">= 3.0.pre2"
 gem "jquery-rails"
@@ -33,7 +34,6 @@ group :test do
 end
 
 group :development do
-  gem "thin"
   gem "nifty-generators"
   gem "capistrano"
 end
