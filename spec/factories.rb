@@ -21,5 +21,5 @@ end
 Factory.define :user do |f|
   f.name "Foo Bar"
   f.sequence(:github_username) { |n| "foo#{n}" }
-  f.sequence(:github_uid) { |n| n }
+  f.sequence(:github_uid) { |n| n.to_s }
 end
