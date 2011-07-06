@@ -1,3 +1,7 @@
+# Addendum
+
+Ryan has provided a resource of unparalleled value to the Rails community -- not just his amazing Railscasts, but also the Railscasts site itself. By picking it apart and seeing how he does things, one can learn any number of Best Practices. Thanks, Ryan!
+
 # RailsCasts
 
 This is the source code for the [RailsCasts site](http://railscasts.com/). If you want the source code for the episodes, see the [railscasts-episodes](http://github.com/ryanb/railscasts-episodes) project.
